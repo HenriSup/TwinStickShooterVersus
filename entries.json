@@ -1,0 +1,109 @@
+{
+  "nextEntryId": 25,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Game",
+      "type": "scene"
+    },
+    {
+      "id": "15",
+      "name": "Prefabs",
+      "type": null,
+      "children": [
+        {
+          "id": "16",
+          "name": "Characters",
+          "type": null,
+          "children": [
+            {
+              "id": "17",
+              "name": "Player",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "name": "Tank",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sprites",
+      "type": null,
+      "children": [
+        {
+          "id": "3",
+          "name": "Characters",
+          "type": null,
+          "children": [
+            {
+              "id": "10",
+              "name": "Heads",
+              "type": "sprite"
+            },
+            {
+              "id": "11",
+              "name": "Legs",
+              "type": "sprite"
+            },
+            {
+              "id": "12",
+              "name": "Bodies",
+              "type": "sprite"
+            },
+            {
+              "id": "14",
+              "name": "Weapons",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Objects",
+          "type": null,
+          "children": []
+        },
+        {
+          "id": "5",
+          "name": "Map",
+          "type": null,
+          "children": []
+        },
+        {
+          "id": "20",
+          "name": "Tank",
+          "type": null,
+          "children": [
+            {
+              "id": "22",
+              "name": "Turret",
+              "type": "sprite"
+            },
+            {
+              "id": "21",
+              "name": "Base",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Behaviors",
+      "type": null,
+      "children": [
+        {
+          "id": "24",
+          "name": "TankBehavior",
+          "type": "script"
+        }
+      ]
+    }
+  ]
+}
