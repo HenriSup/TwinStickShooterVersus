@@ -24,6 +24,14 @@
             "farClippingPlane": 1000
           },
           "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "CameraFollowBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
         }
       ],
       "position": {
@@ -72,6 +80,45 @@
       "prefab": {
         "sceneAssetId": "19"
       }
+    },
+    {
+      "id": "2",
+      "name": "Background",
+      "children": [],
+      "components": [
+        {
+          "type": "TileMapRenderer",
+          "config": {
+            "formatVersion": 1,
+            "tileMapAssetId": "26",
+            "tileSetAssetId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": -10,
+        "y": -10,
+        "z": -1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
     }
   ]
 }

@@ -5,6 +5,12 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "CameraFollowBehavior": {
+      "scriptId": "29",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

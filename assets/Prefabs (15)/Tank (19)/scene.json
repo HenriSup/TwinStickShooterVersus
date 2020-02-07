@@ -15,7 +15,7 @@
               "config": {
                 "formatVersion": 1,
                 "spriteAssetId": "22",
-                "animationId": null,
+                "animationId": "0",
                 "horizontalFlip": false,
                 "verticalFlip": false,
                 "castShadow": false,
@@ -59,7 +59,7 @@
               "config": {
                 "formatVersion": 1,
                 "spriteAssetId": "21",
-                "animationId": null,
+                "animationId": "1",
                 "horizontalFlip": false,
                 "verticalFlip": false,
                 "castShadow": false,
@@ -92,6 +92,47 @@
           "visible": true,
           "layer": 0,
           "prefab": null
+        },
+        {
+          "id": "3",
+          "name": "Printer",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "28",
+                "text": "(x,y)",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": -1.705,
+            "z": 1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
       "components": [
@@ -102,6 +143,23 @@
             "propertyValues": {}
           },
           "id": "0"
+        },
+        {
+          "type": "P2Body",
+          "config": {
+            "formatVersion": 2,
+            "mass": 1,
+            "fixedRotation": false,
+            "offsetX": -0.1,
+            "offsetY": 0,
+            "shape": "box",
+            "width": 3.1,
+            "height": 3.2,
+            "angle": 0,
+            "radius": 1,
+            "length": 1
+          },
+          "id": "1"
         }
       ],
       "position": {

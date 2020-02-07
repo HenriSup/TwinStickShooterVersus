@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 25,
+  "nextEntryId": 30,
   "nodes": [
     {
       "id": "0",
@@ -15,13 +15,7 @@
           "id": "16",
           "name": "Characters",
           "type": null,
-          "children": [
-            {
-              "id": "17",
-              "name": "Player",
-              "type": "scene"
-            }
-          ]
+          "children": []
         },
         {
           "id": "19",
@@ -72,7 +66,18 @@
           "id": "5",
           "name": "Map",
           "type": null,
-          "children": []
+          "children": [
+            {
+              "id": "25",
+              "name": "BackgroundTileSet",
+              "type": "tileSet"
+            },
+            {
+              "id": "26",
+              "name": "PlaceHolderTileMap",
+              "type": "tileMap"
+            }
+          ]
         },
         {
           "id": "20",
@@ -102,6 +107,23 @@
           "id": "24",
           "name": "TankBehavior",
           "type": "script"
+        },
+        {
+          "id": "29",
+          "name": "CameraFollowBehavior",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Fonts",
+      "type": null,
+      "children": [
+        {
+          "id": "28",
+          "name": "Font",
+          "type": "font"
         }
       ]
     }
